@@ -1,3 +1,5 @@
+@import url(_colors.scss);
+
 *,
 *::before,
 *::after {
@@ -7,5 +9,41 @@
 }
 
 body {
+position: relative;
   font-family: "Montserrat", sans-serif;
+  background-color: cadetblue;
+}
+
+nav {
+    text-transform: uppercase;
+    
+    .nav-link {
+    color: $white-color;
+    }
+    .nav-link:hover {
+        color: $blue-color;
+    }
+
+    a {
+        color: $white-color
+    }
+    a:hover {
+        color: $blue-color;
+    }
+
+    .fa-bars {
+        padding: 10px;  // enlarging the burger clickable area
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+    }
+
+    .active {
+        color: $blue-color; // spying - current menu element enlightment
+    }
+}
+
+.name--segment {
+text-transform: none;    
 }
