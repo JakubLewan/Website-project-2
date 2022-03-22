@@ -7,14 +7,33 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 82px;
+}
+
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
   background-color: #535353;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  margin: 0 auto 42px;
+  background-color: #3371c2;
+}
+
 nav {
   text-transform: uppercase;
+  z-index: 1;
+  -webkit-transition: .7s;
+  transition: .7s;
 }
 
 nav .nav-link {
@@ -53,6 +72,10 @@ nav .active {
   color: #3371c2;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 header {
   color: #fff;
 }
@@ -68,7 +91,7 @@ header .hero-image {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  z-index: -2;
+  z-index: 0;
 }
 
 header .hero-shadow {
@@ -97,6 +120,90 @@ header .hero-text {
   padding: 10px;
   text-align: center;
   z-index: 10;
+}
+
+header .fa-circle-chevron-down {
+  position: absolute;
+  left: 50%;
+  font-size: 28px;
+  bottom: 20px;
+}
+
+.aboutus .aboutus-icon {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.aboutus .aboutus-card-tittle {
+  font-style: 18px;
+  text-transform: uppercase;
+}
+
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.aboutus .aboutus-hover {
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.aboutus .aboutus-hover:hover {
+  color: #3371c2;
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url(/img/closeup-code-sm.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ddd;
+  z-index: -2;
+}
+
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -5;
+}
+
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 34px;
+}
+
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 44px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
+  }
 }
 
 @media (min-width: 1200px) {
