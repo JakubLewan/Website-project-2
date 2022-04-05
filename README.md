@@ -2,6 +2,8 @@
 
 Website project for e-gaming management software startup (nonexistent). Created to learn bootstrap and RWD.
 
+#Project status: in progress
+
 ## Features
 
 - HTML
@@ -12,4 +14,4 @@ Website project for e-gaming management software startup (nonexistent). Created 
 
 >Work in progress.
 >TODO: 
- - Add another sections
+ - create the remaining sections
