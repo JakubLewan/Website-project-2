@@ -208,7 +208,7 @@ header .fa-circle-chevron-down {
 
 @media (min-width: 1200px) {
   header .hero-image {
-    background-image: url("/../img/header-fhd.jpg");
+    background-image: url("../img/header-fhd.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */
