@@ -87,7 +87,7 @@ header h1 {
 header .hero-image {
   position: relative;
   height: 100vh;
-  background-image: url("img/header-small.jpg");
+  background-image: url("/img/header-small.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -154,7 +154,7 @@ header .fa-circle-chevron-down {
 
 .aboutus-hero {
   position: relative;
-  background-image: url("img/closeup-code-sm.jpg");
+  background-image: url("/img/closeup-code-sm.jpg");
   background-position: center;
   background-size: cover;
   color: #ddd;
@@ -208,7 +208,7 @@ header .fa-circle-chevron-down {
 
 @media (min-width: 1200px) {
   header .hero-image {
-    background-image: url("img/header-fhd.jpg");
+    background-image: url("/img/header-fhd.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */
