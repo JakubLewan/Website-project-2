@@ -154,7 +154,7 @@ header .fa-circle-chevron-down {
 
 .aboutus-hero {
   position: relative;
-  background-image: url(img/closeup-code-sm.jpg);
+  background-image: url("img/closeup-code-sm.jpg");
   background-position: center;
   background-size: cover;
   color: #ddd;
